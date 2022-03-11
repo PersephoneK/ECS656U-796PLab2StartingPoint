@@ -41,7 +41,7 @@ public class GRPCClientService {
 			.setB10(6)
 			.setB11(7)
 			.build());
-		String resp= A.getC00()+A.getC01()+A.getC10()+A.getC11()+"";
+		String resp= A.getC00()+A.getC01()+A.getC10()++A.getC11()+"";
 		return resp;
     }
 }
